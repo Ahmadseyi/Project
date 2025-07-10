@@ -167,7 +167,7 @@ h4 {
   align-items: center; */
 }
 .about-us {
-  border: solid red;
+  /* border: solid red; */
   /* width: 300px; */
   display: flex;
   justify-content: center;
@@ -201,9 +201,17 @@ h4 {
 }
 .plumber-men {
   gap: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
   /* border: solid;
   padding-left: 20px;
   padding-right: 20px; */
+}
+.side-view {
+  width: 300px;
+  height: 200px;
 }
 h5 {
   color: white;
@@ -228,13 +236,6 @@ h5 {
   width: 48px;
   height: 48px;
   accent-color: white;
-}
-.two-images {
-  border: solid brown;
-  margin-inline: auto;
-}
-.plumber-img {
-  margin-inline: auto;
 }
 
 @media (min-width: 900px) {
@@ -271,30 +272,11 @@ h5 {
     justify-content: center;
     flex-direction: row;
   }
-  .paint {
-    /* border: solid; */
-  }
-  .Electrical {
-    /* border: solid red; */
-  }
-  .repair {
-    /* border: solid brown; */
-  }
   .plumber-men {
     display: flex;
     justify-content: center;
     flex-direction: column;
     height: 100%;
     width: 50%;
-  }
-  .two-images {
-    /* border: solid red; */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 20px;
-  }
-  .plumber-img {
-    border: solid green;
   }
 }
