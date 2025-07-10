@@ -31,19 +31,35 @@ body {
   font-size: 24px;
   color: #fff;
 }
-.plumber {
-  background-position: center;
-  height: 400px; /* set the height */
+
+.engr {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  /* border: 2px solid red; */
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 30px;
+  /* width: 100%; */
 }
-.job {
-  background-position: center;
-  height: 400px; /* set the height */
+
+.text-con {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: left;
+  line-height: 1.6;
+  font-size: 18px;
+  /* border: 2px black solid; */
+  width: 300px;
 }
 .call {
-  color: red;
+  color: #e80c0c;
+  text-align: left;
+}
+.guy {
+  /* height: 50vh; */
+  background-size: 300px;
 }
 .construction {
   background-color: rgb(187, 178, 178);
@@ -97,6 +113,9 @@ hr {
 }
 h2 {
   color: blue;
+  /* font-size: 50px; */
+}
+.best {
   font-size: 50px;
 }
 .book {
@@ -214,9 +233,10 @@ h5 {
   border: solid brown;
   margin-inline: auto;
 }
-.plumber-img{
+.plumber-img {
   margin-inline: auto;
 }
+
 @media (min-width: 900px) {
   .quality {
     width: 100%;
@@ -268,7 +288,7 @@ h5 {
     width: 50%;
   }
   .two-images {
-    border: solid red;
+    /* border: solid red; */
     display: flex;
     align-items: center;
     justify-content: center;
